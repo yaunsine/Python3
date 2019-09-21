@@ -1,0 +1,13 @@
+原创声明：
+发布于微信公众号【原视界科技】ID：lsir34567
+原虫子原创
+
+使用说明：
+main.py为源码文件
+dist目录下的main.exe可直接运行使用
+
+功能说明：
+实现订阅中英双语文章
+
+资源支持：
+中国日报网https://language.chinadaily.com.cn/

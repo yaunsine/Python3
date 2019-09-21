@@ -81,8 +81,8 @@ def sendtoEmail():
 
 #设置定时发送
 def send_mail_by_schedule():
-    schedule.every().day.at("13:21").do(sendtoEmail)
-    #schedule.every().day.at("18:00").do(sendtoEmail)
+    schedule.every().day.at("12:00").do(sendtoEmail)
+    schedule.every().day.at("18:00").do(sendtoEmail)
     while True:
         schedule.run_pending()
         time.sleep(1)
